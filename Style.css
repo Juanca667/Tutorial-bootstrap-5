@@ -30,6 +30,7 @@ body{
 }
 .btn-light{
     background-color: var(--light) !important;
+    border-color: var(--primary);
 }
 .bg-primary{
     background-color: var(--primary) !important;    
@@ -62,6 +63,16 @@ body{
 .call-to-action img{
     max-width: 280px;
 }
+.cta-form{
+    max-width: 480px;
+}
+.cta-form .form-control{
+    min-height: 82px;
+}
+.cta-form .btn {
+    top:12px;
+    right:12px; 
+}
 @media (max-width:992px){
     .navbar {
 position: relative !important;    
@@ -73,6 +84,7 @@ position: relative !important;
         max-width: 100%;
     }
 }
-.navbar-toggler:focus{
-    box-shadow: none;
+
+.w-75 {
+    width: 100% !important;
 }
